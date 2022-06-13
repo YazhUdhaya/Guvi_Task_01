@@ -1,7 +1,8 @@
 # 1.Write a blog on Difference between HTTP1.1 vs HTTP2
 
 ## HTTP :
-			Http is (HyperText Transfer Protocol) used for transferring the data Client to Server and Server to Client via the internet. It basically works for Request and Response manners. And the Client sends the Request(Google.com) to the Server, the Server sends the Response(Google.com) to the Client.If we want the Html file, Css or any other image file, everything will be transferred to the Request and Response manner only.
+
+Http is (HyperText Transfer Protocol) used for transferring the data Client to Server and Server to Client via the internet. It basically works for Request and Response manners. And the Client sends the Request(Google.com) to the Server, the Server sends the Response(Google.com) to the Client.If we want the Html file, Css or any other image file, everything will be transferred to the Request and Response manner only.
 
 ## HTTP2 Vs. HTTP1 or HTTP1 Vs. HTTP2 – Let’s Understand The Two Protocols
 
