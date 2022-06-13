@@ -125,6 +125,7 @@ An object can be created with figure brackets {…} with an optional list of pro
 
 To understand this rather abstract definition, let us look at an example of a JavaScript Object :
 
+
 **let school = {
 name : “Vivekananda School”,
 location : “Delhi”,
@@ -137,6 +138,8 @@ Each of these keys is referred to as properties of the object. An object in Java
 
 Let us see such an example :
 // javascript code demonstrating a simple object
+
+
 **let school = {
 name: ‘Vivekananda School’,
 location : ‘Delhi’,
@@ -154,6 +157,8 @@ In the above example, “displayinfo” is a method of the school object that is
 ## Properties of JavaScript Object
 
 The property names can be strings or numbers. In case the property names are numbers, they must be accessed using the “bracket notation” like this :
+
+
 **let school = {
 name: ‘Vivekananda School’,
 location : ‘Delhi’,
@@ -168,6 +173,8 @@ school.displayInfo();**
 Output:
 But more on the bracket notation later.
 Property names can also be strings with more than one space separated words. In which case, these property names must be enclosed in quotes :
+
+
 **let school = {
 “school name” : “Vivekananda School”,
 }**
@@ -176,6 +183,8 @@ Like property names which are numbers, they must also be accessed using the brac
 
 Like if we want to access the ‘Vivekananda’ from ‘Vivekananda School’ we can do something like this:
 // bracket notation
+
+
 **let school = {
 name: ‘Vivekananda School’,
 displayInfo : function(){
@@ -193,6 +202,8 @@ There are several ways or syntax’s to create objects. One of which, known as t
 Using the Object literal syntax : Object literal syntax uses the {…} notation to initialize an object an its methods/properties directly.
 
 Let us look at an example of creating objects using this method :
+
+
 **var obj = {
 member1 : value1,
 member2 : value2,
@@ -201,6 +212,8 @@ These members can be anything — strings, numbers, functions, arrays or even ot
 
 Object Constructor : Another way to create objects in JavaScript involves using the “Object” constructor. The Object constructor creates an object wrapper for the given value. This, used in conjunction with the “new” keyword allows us to initialize new objects.
 Example :
+
+
 **const school = new Object();
 school.name = ‘Vivekanada school’;
 school.location = ‘Delhi’;
@@ -219,6 +232,8 @@ The two methods mentioned above are not well suited to programs that require the
 Constructors in JavaScript, like in most other OOP languages, provides a template for creation of objects. In other words, it defines a set of properties and methods that would be common to all objects initialized using the constructor.
 
 Let us see an example :
+
+
 **function Vehicle(name, maker) {
 this.name = name;
 this.maker = maker;
@@ -238,6 +253,8 @@ Then calls Vehicle() in the context of the new object, which means that when the
 Once this is finished, the newly created object is returned to car1 and car2(in the above example).
 
 Inside classes, there can be special methods named constructor().
+
+
 **class people {
 constructor()
 {
@@ -259,6 +276,8 @@ However you may familiarize yourself with the basic syntax used as below:
 let obj = Object.create(prototype_object, propertiesObject)
 // the second propertiesObject argument is optional
 An example of making use of the Object.create() method is:
+
+
 **let footballers = {
 position: “Striker”
 }
@@ -275,6 +294,8 @@ All objects created in this way inherits all properties and methods from its pro
 
 Object members(properties or methods) can be accessed using the
 dot notation :
+
+
 **(objectName.memberName)
 let school = {
 name : “Vivekanada”,
@@ -291,6 +312,8 @@ console.log(school.established);**
 
 Output:
 Bracket Notation :
+
+
 **objectName[“memberName”]
 let school = {
 name : “Vivekanada School”,
@@ -311,6 +334,8 @@ Output:
 Unlike the dot notation, the bracket keyword works with any string combination, including, but not limited to multi-word strings.
 
 For example:
+
+
 somePerson.first name // invalid
 somePerson[“first name”] // valid
 Unlike the dot notation, the bracket notation can also contain names which are results of any expressions variables whose values are computed at run-time.
